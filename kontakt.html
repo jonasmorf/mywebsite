@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt – Meine Website</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+    <nav class="nav">
+        <h1 class="logo">MeineWebsite</h1>
+
+        <div class="menu-btn" id="menu-btn">
+            ☰
+        </div>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ueber-mich.html">Über mich</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero hero-small">
+        <h2>Kontakt</h2>
+        <p>Schreib mir eine Nachricht.</p>
+    </section>
+</header>
+
+<main>
+    <section class="content">
+        <h2>Kontaktformular</h2>
+        <p>Fülle das Formular aus, um mir zu schreiben (Übungsbeispiel):</p>
+
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Dein Name" required>
+
+            <label for="email">E-Mail</label>
+            <input id="email" type="email" placeholder="deine@mail.ch" required>
+
+            <label for="message">Nachricht</label>
+            <textarea id="message" rows="5" placeholder="Deine Nachricht..." required></textarea>
+
+            <button type="submit" class="btn">Absenden</button>
+        </form>
+
+        <p class="form-info">
+            Hinweis: Dieses Formular ist nur zum Üben und verschickt noch keine echte E-Mail.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 MeineWebsite – Kontakt</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
